@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24387B931BAEE1CC00812581 /* SendMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24387B921BAEE1CC00812581 /* SendMessageTableViewController.m */; };
+		244558C01B5B4DD70034532A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 244558BF1B5B4DD70034532A /* main.m */; };
+		244558C31B5B4DD70034532A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 244558C21B5B4DD70034532A /* AppDelegate.m */; };
+		244558C61B5B4DD70034532A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244558C51B5B4DD70034532A /* ViewController.m */; };
+		244558C91B5B4DD70034532A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244558C71B5B4DD70034532A /* Main.storyboard */; };
+		244558CB1B5B4DD70034532A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244558CA1B5B4DD70034532A /* Images.xcassets */; };
+		244558CE1B5B4DD70034532A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 244558CC1B5B4DD70034532A /* LaunchScreen.xib */; };
+		244558DA1B5B4DD70034532A /* RibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244558D91B5B4DD70034532A /* RibbitTests.m */; };
+		244558E51B5B529F0034532A /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244558E41B5B529F0034532A /* InboxViewController.m */; };
+		244558F71B5B5F9A0034532A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558ED1B5B5F9A0034532A /* AudioToolbox.framework */; };
+		244558F81B5B5F9A0034532A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558EE1B5B5F9A0034532A /* CFNetwork.framework */; };
+		244558F91B5B5F9A0034532A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558EF1B5B5F9A0034532A /* CoreGraphics.framework */; };
+		244558FA1B5B5F9A0034532A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558F01B5B5F9A0034532A /* CoreLocation.framework */; };
+		244558FB1B5B5F9A0034532A /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558F11B5B5F9A0034532A /* libz.1.1.3.dylib */; };
+		244558FC1B5B5F9A0034532A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558F21B5B5F9A0034532A /* MobileCoreServices.framework */; };
+		244558FD1B5B5F9A0034532A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558F31B5B5F9A0034532A /* QuartzCore.framework */; };
+		244558FE1B5B5F9A0034532A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558F41B5B5F9A0034532A /* Security.framework */; };
+		244558FF1B5B5F9A0034532A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558F51B5B5F9A0034532A /* StoreKit.framework */; };
+		244559001B5B5F9A0034532A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244558F61B5B5F9A0034532A /* SystemConfiguration.framework */; };
+		244559021B5B60BB0034532A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244559011B5B60BB0034532A /* Parse.framework */; };
+		244559031B5B60BB0034532A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244559011B5B60BB0034532A /* Parse.framework */; };
+		244559051B5B61190034532A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 244559041B5B61190034532A /* libsqlite3.dylib */; };
+		244559071B5B61420034532A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 244559061B5B61420034532A /* libsqlite3.0.dylib */; };
+		244559091B5B61E00034532A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244559081B5B61E00034532A /* Social.framework */; };
+		2445590B1B5B61E60034532A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2445590A1B5B61E60034532A /* Accounts.framework */; };
+		2445590D1B5B62FB0034532A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2445590C1B5B62FB0034532A /* Bolts.framework */; };
+		2445590E1B5B62FB0034532A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2445590C1B5B62FB0034532A /* Bolts.framework */; };
+		244559111B5B66EF0034532A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244559101B5B66EF0034532A /* LoginViewController.m */; };
+		244559121B5B66EF0034532A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244559101B5B66EF0034532A /* LoginViewController.m */; };
+		244559151B5B67230034532A /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244559141B5B67230034532A /* SignupViewController.m */; };
+		244559161B5B67230034532A /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244559141B5B67230034532A /* SignupViewController.m */; };
+		247D9CC31BAE2E8100D86DAA /* MachineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D9CC21BAE2E8100D86DAA /* MachineViewController.m */; };
+		24AB99611B82A342000EA247 /* EditFriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB99601B82A342000EA247 /* EditFriendTableViewController.m */; };
+		24AB99641B83D9EA000EA247 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB99631B83D9EA000EA247 /* FriendsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		244558D41B5B4DD70034532A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244558B21B5B4DD70034532A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244558B91B5B4DD70034532A;
+			remoteInfo = Ribbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24387B911BAEE1CC00812581 /* SendMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageTableViewController.h; sourceTree = "<group>"; };
+		24387B921BAEE1CC00812581 /* SendMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageTableViewController.m; sourceTree = "<group>"; };
+		244558BA1B5B4DD70034532A /* My Enigma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Enigma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		244558BE1B5B4DD70034532A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244558BF1B5B4DD70034532A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		244558C11B5B4DD70034532A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		244558C21B5B4DD70034532A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		244558C41B5B4DD70034532A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		244558C51B5B4DD70034532A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		244558C81B5B4DD70034532A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244558CA1B5B4DD70034532A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		244558CD1B5B4DD70034532A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		244558D31B5B4DD70034532A /* My EnigmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My EnigmaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		244558D81B5B4DD70034532A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244558D91B5B4DD70034532A /* RibbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibbitTests.m; sourceTree = "<group>"; };
+		244558E31B5B529F0034532A /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		244558E41B5B529F0034532A /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		244558ED1B5B5F9A0034532A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		244558EE1B5B5F9A0034532A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		244558EF1B5B5F9A0034532A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		244558F01B5B5F9A0034532A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		244558F11B5B5F9A0034532A /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		244558F21B5B5F9A0034532A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		244558F31B5B5F9A0034532A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		244558F41B5B5F9A0034532A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		244558F51B5B5F9A0034532A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		244558F61B5B5F9A0034532A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		244559011B5B60BB0034532A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		244559041B5B61190034532A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		244559061B5B61420034532A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		244559081B5B61E00034532A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2445590A1B5B61E60034532A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2445590C1B5B62FB0034532A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2445590F1B5B66EF0034532A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		244559101B5B66EF0034532A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		244559131B5B67230034532A /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		244559141B5B67230034532A /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		247D9CC11BAE2E8100D86DAA /* MachineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineViewController.h; sourceTree = "<group>"; };
+		247D9CC21BAE2E8100D86DAA /* MachineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineViewController.m; sourceTree = "<group>"; };
+		24AB995F1B82A342000EA247 /* EditFriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendTableViewController.h; sourceTree = "<group>"; };
+		24AB99601B82A342000EA247 /* EditFriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendTableViewController.m; sourceTree = "<group>"; };
+		24AB99621B83D9EA000EA247 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		24AB99631B83D9EA000EA247 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244558B71B5B4DD70034532A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2445590B1B5B61E60034532A /* Accounts.framework in Frameworks */,
+				244559091B5B61E00034532A /* Social.framework in Frameworks */,
+				244559071B5B61420034532A /* libsqlite3.0.dylib in Frameworks */,
+				244559051B5B61190034532A /* libsqlite3.dylib in Frameworks */,
+				244558F71B5B5F9A0034532A /* AudioToolbox.framework in Frameworks */,
+				244558F81B5B5F9A0034532A /* CFNetwork.framework in Frameworks */,
+				244558F91B5B5F9A0034532A /* CoreGraphics.framework in Frameworks */,
+				244558FA1B5B5F9A0034532A /* CoreLocation.framework in Frameworks */,
+				244558FB1B5B5F9A0034532A /* libz.1.1.3.dylib in Frameworks */,
+				244558FC1B5B5F9A0034532A /* MobileCoreServices.framework in Frameworks */,
+				244559021B5B60BB0034532A /* Parse.framework in Frameworks */,
+				244558FD1B5B5F9A0034532A /* QuartzCore.framework in Frameworks */,
+				244558FE1B5B5F9A0034532A /* Security.framework in Frameworks */,
+				244558FF1B5B5F9A0034532A /* StoreKit.framework in Frameworks */,
+				244559001B5B5F9A0034532A /* SystemConfiguration.framework in Frameworks */,
+				2445590D1B5B62FB0034532A /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244558D01B5B4DD70034532A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244559031B5B60BB0034532A /* Parse.framework in Frameworks */,
+				2445590E1B5B62FB0034532A /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244558B11B5B4DD70034532A = {
+			isa = PBXGroup;
+			children = (
+				244558EC1B5B5D5B0034532A /* Frameworks */,
+				244558BC1B5B4DD70034532A /* Ribbit */,
+				244558D61B5B4DD70034532A /* RibbitTests */,
+				244558BB1B5B4DD70034532A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244558BB1B5B4DD70034532A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244558BA1B5B4DD70034532A /* My Enigma.app */,
+				244558D31B5B4DD70034532A /* My EnigmaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244558BC1B5B4DD70034532A /* Ribbit */ = {
+			isa = PBXGroup;
+			children = (
+				244558C11B5B4DD70034532A /* AppDelegate.h */,
+				24AB99621B83D9EA000EA247 /* FriendsViewController.h */,
+				24AB99631B83D9EA000EA247 /* FriendsViewController.m */,
+				24AB995F1B82A342000EA247 /* EditFriendTableViewController.h */,
+				24AB99601B82A342000EA247 /* EditFriendTableViewController.m */,
+				244558C21B5B4DD70034532A /* AppDelegate.m */,
+				244558C41B5B4DD70034532A /* ViewController.h */,
+				244558C51B5B4DD70034532A /* ViewController.m */,
+				244558C71B5B4DD70034532A /* Main.storyboard */,
+				244558E31B5B529F0034532A /* InboxViewController.h */,
+				244558E41B5B529F0034532A /* InboxViewController.m */,
+				247D9CC11BAE2E8100D86DAA /* MachineViewController.h */,
+				247D9CC21BAE2E8100D86DAA /* MachineViewController.m */,
+				24387B911BAEE1CC00812581 /* SendMessageTableViewController.h */,
+				24387B921BAEE1CC00812581 /* SendMessageTableViewController.m */,
+				2445590F1B5B66EF0034532A /* LoginViewController.h */,
+				244559101B5B66EF0034532A /* LoginViewController.m */,
+				244559131B5B67230034532A /* SignupViewController.h */,
+				244559141B5B67230034532A /* SignupViewController.m */,
+				244558CA1B5B4DD70034532A /* Images.xcassets */,
+				244558CC1B5B4DD70034532A /* LaunchScreen.xib */,
+				244558BD1B5B4DD70034532A /* Supporting Files */,
+			);
+			path = Ribbit;
+			sourceTree = "<group>";
+		};
+		244558BD1B5B4DD70034532A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				244558BE1B5B4DD70034532A /* Info.plist */,
+				244558BF1B5B4DD70034532A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		244558D61B5B4DD70034532A /* RibbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				244558D91B5B4DD70034532A /* RibbitTests.m */,
+				244558D71B5B4DD70034532A /* Supporting Files */,
+			);
+			path = RibbitTests;
+			sourceTree = "<group>";
+		};
+		244558D71B5B4DD70034532A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				244558D81B5B4DD70034532A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		244558EC1B5B5D5B0034532A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2445590C1B5B62FB0034532A /* Bolts.framework */,
+				2445590A1B5B61E60034532A /* Accounts.framework */,
+				244559081B5B61E00034532A /* Social.framework */,
+				244559061B5B61420034532A /* libsqlite3.0.dylib */,
+				244559041B5B61190034532A /* libsqlite3.dylib */,
+				244559011B5B60BB0034532A /* Parse.framework */,
+				244558ED1B5B5F9A0034532A /* AudioToolbox.framework */,
+				244558EE1B5B5F9A0034532A /* CFNetwork.framework */,
+				244558EF1B5B5F9A0034532A /* CoreGraphics.framework */,
+				244558F01B5B5F9A0034532A /* CoreLocation.framework */,
+				244558F11B5B5F9A0034532A /* libz.1.1.3.dylib */,
+				244558F21B5B5F9A0034532A /* MobileCoreServices.framework */,
+				244558F31B5B5F9A0034532A /* QuartzCore.framework */,
+				244558F41B5B5F9A0034532A /* Security.framework */,
+				244558F51B5B5F9A0034532A /* StoreKit.framework */,
+				244558F61B5B5F9A0034532A /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244558B91B5B4DD70034532A /* My Enigma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244558DD1B5B4DD70034532A /* Build configuration list for PBXNativeTarget "My Enigma" */;
+			buildPhases = (
+				244558B61B5B4DD70034532A /* Sources */,
+				244558B71B5B4DD70034532A /* Frameworks */,
+				244558B81B5B4DD70034532A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Enigma";
+			productName = Ribbit;
+			productReference = 244558BA1B5B4DD70034532A /* My Enigma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		244558D21B5B4DD70034532A /* My EnigmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244558E01B5B4DD70034532A /* Build configuration list for PBXNativeTarget "My EnigmaTests" */;
+			buildPhases = (
+				244558CF1B5B4DD70034532A /* Sources */,
+				244558D01B5B4DD70034532A /* Frameworks */,
+				244558D11B5B4DD70034532A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244558D51B5B4DD70034532A /* PBXTargetDependency */,
+			);
+			name = "My EnigmaTests";
+			productName = RibbitTests;
+			productReference = 244558D31B5B4DD70034532A /* My EnigmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244558B21B5B4DD70034532A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "DrBearcub Software";
+				TargetAttributes = {
+					244558B91B5B4DD70034532A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					244558D21B5B4DD70034532A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 244558B91B5B4DD70034532A;
+					};
+				};
+			};
+			buildConfigurationList = 244558B51B5B4DD70034532A /* Build configuration list for PBXProject "My Enigma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244558B11B5B4DD70034532A;
+			productRefGroup = 244558BB1B5B4DD70034532A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244558B91B5B4DD70034532A /* My Enigma */,
+				244558D21B5B4DD70034532A /* My EnigmaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244558B81B5B4DD70034532A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244558C91B5B4DD70034532A /* Main.storyboard in Resources */,
+				244558CE1B5B4DD70034532A /* LaunchScreen.xib in Resources */,
+				244558CB1B5B4DD70034532A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244558D11B5B4DD70034532A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244558B61B5B4DD70034532A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244559151B5B67230034532A /* SignupViewController.m in Sources */,
+				247D9CC31BAE2E8100D86DAA /* MachineViewController.m in Sources */,
+				244558C61B5B4DD70034532A /* ViewController.m in Sources */,
+				244558C31B5B4DD70034532A /* AppDelegate.m in Sources */,
+				24387B931BAEE1CC00812581 /* SendMessageTableViewController.m in Sources */,
+				244558C01B5B4DD70034532A /* main.m in Sources */,
+				24AB99641B83D9EA000EA247 /* FriendsViewController.m in Sources */,
+				244558E51B5B529F0034532A /* InboxViewController.m in Sources */,
+				244559111B5B66EF0034532A /* LoginViewController.m in Sources */,
+				24AB99611B82A342000EA247 /* EditFriendTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244558CF1B5B4DD70034532A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244559161B5B67230034532A /* SignupViewController.m in Sources */,
+				244559121B5B66EF0034532A /* LoginViewController.m in Sources */,
+				244558DA1B5B4DD70034532A /* RibbitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244558D51B5B4DD70034532A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244558B91B5B4DD70034532A /* My Enigma */;
+			targetProxy = 244558D41B5B4DD70034532A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		244558C71B5B4DD70034532A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244558C81B5B4DD70034532A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		244558CC1B5B4DD70034532A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244558CD1B5B4DD70034532A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		244558DB1B5B4DD70034532A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		244558DC1B5B4DD70034532A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244558DE1B5B4DD70034532A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ribbit",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Ribbit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "My Enigma";
+			};
+			name = Debug;
+		};
+		244558DF1B5B4DD70034532A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ribbit",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Ribbit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "My Enigma";
+			};
+			name = Release;
+		};
+		244558E11B5B4DD70034532A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RibbitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "My EnigmaTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ribbit.app/Ribbit";
+			};
+			name = Debug;
+		};
+		244558E21B5B4DD70034532A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RibbitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "My EnigmaTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ribbit.app/Ribbit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244558B51B5B4DD70034532A /* Build configuration list for PBXProject "My Enigma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244558DB1B5B4DD70034532A /* Debug */,
+				244558DC1B5B4DD70034532A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244558DD1B5B4DD70034532A /* Build configuration list for PBXNativeTarget "My Enigma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244558DE1B5B4DD70034532A /* Debug */,
+				244558DF1B5B4DD70034532A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244558E01B5B4DD70034532A /* Build configuration list for PBXNativeTarget "My EnigmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244558E11B5B4DD70034532A /* Debug */,
+				244558E21B5B4DD70034532A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244558B21B5B4DD70034532A /* Project object */;
+}
